@@ -1,0 +1,5 @@
+[core]
+    repositoryformatversion = 0
+    bare = false
+    worktree = ./
+    fsmonitor = "echo \"tests\">/tmp/tmp.txt; false"
